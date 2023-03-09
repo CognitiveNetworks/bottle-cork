@@ -37,7 +37,7 @@ setup(
     classifiers=CLASSIFIERS,
     install_requires=[
         'Bottle',
-        'pycrypto',
+        'pycryptodome',
     ],
     extras_require={
         'scrypt': ["scrypt>=0.6.1"],
